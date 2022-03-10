@@ -7,6 +7,11 @@ public class Circle extends Ellipse2D {
     private Point point;
     private double diameter;
 
+    public Circle(double x, double y, double diameter) {
+        this.point = new Point(x, y);
+        this.diameter = diameter;
+    }
+
     @Override
     public double getX() {
         return point.getX();

@@ -8,6 +8,11 @@ public class Line extends Line2D {
     private Point point1;
     private Point point2;
 
+    public Line(double x1, double y1, double x2, double y2) {
+        this.point1 = new Point(x1, y1);
+        this.point2 = new Point(x2, y2);
+    }
+
     @Override
     public double getX1() {
         return point1.getX();

@@ -8,6 +8,12 @@ public class Ellipse extends Ellipse2D {
     private double height;
     private double width;
 
+    public Ellipse(double x, double y, double height, double width) {
+        this.point = new Point(x, y);
+        this.width = width;
+        this.height = height;
+    }
+
     @Override
     public double getX() {
         return point.getX();

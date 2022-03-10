@@ -7,6 +7,11 @@ public class Square extends Rectangle2D {
     private Point point;
     private double width;
 
+    public Square(double x, double y, double width) {
+        this.point = new Point(x, y);
+        this.width = width;
+    }
+
     @Override
     @Deprecated
     public void setRect(double x, double y, double w, double h) {

@@ -7,6 +7,12 @@ public class Rectangle extends Rectangle2D {
     private double height;
     private double width;
 
+    public Rectangle(double x, double y, double height, double width) {
+        this.point = new Point(x, y);
+        this.width = width;
+        this.height = height;
+    }
+
     @Override
     public void setRect(double x, double y, double w, double h) {
         this.point.setLocation(x, y);
