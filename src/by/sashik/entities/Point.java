@@ -26,4 +26,8 @@ public class Point extends Point2D {
         this.x = x;
         this.y = y;
     }
+
+    public String toString() {
+        return "(x = " + x + ", y = " + y + ")";
+    }
 }

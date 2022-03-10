@@ -12,5 +12,6 @@ public class Main {
                 new Ellipse(2, 4, 12, 7),
                 new Square(3, 5, 5)
         });
+        shapes.draw();
     }
 }
