@@ -53,4 +53,8 @@ public class Rectangle extends Rectangle2D {
     public boolean isEmpty() {
         return false;
     }
+
+    public String toString() {
+        return "Rectangle = (point = " + point + ", width = " + width + ", height = " + height + ")";
+    }
 }

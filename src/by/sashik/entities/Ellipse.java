@@ -44,4 +44,8 @@ public class Ellipse extends Ellipse2D {
     public Rectangle2D getBounds2D() {
         return null;
     }
+
+    public String toString() {
+        return "Ellipse = (point = " + point + ", width = " + width + ", height = " + height + ")";
+    }
 }

@@ -56,4 +56,8 @@ public class Square extends Rectangle2D {
     public boolean isEmpty() {
         return false;
     }
+
+    public String toString() {
+        return "Square = (point = " + point + ", width = " + width + ")";
+    }
 }

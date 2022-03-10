@@ -48,4 +48,8 @@ public class Line extends Line2D {
     public Rectangle2D getBounds2D() {
         return null;
     }
+
+    public String toString() {
+        return "Line = (point1 = " + point1 + ", point2 = " + point2 + ")";
+    }
 }
